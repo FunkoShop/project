@@ -1,0 +1,7 @@
+{
+  "name": "funkoshop",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
