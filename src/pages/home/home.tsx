@@ -10,19 +10,16 @@ import {
   IonItem,
   IonLabel,
   IonThumbnail,
-  IonItemGroup,
-  IonItemDivider
 } from '@ionic/react';
 
-import ExploreContainer from '../../components/ExploreContainer';
-import './Tab1.css';
+import './home.css';
 
-const Tab1: React.FC = () => {
+const home: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
+          <IonTitle>HOME</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
@@ -44,4 +41,4 @@ const Tab1: React.FC = () => {
   );
 };
 
-export default Tab1;
+export default home;
